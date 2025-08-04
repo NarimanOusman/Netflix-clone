@@ -1,0 +1,22 @@
+
+
+.hero{
+    position : relative;
+
+}
+.banner_img {
+    width: 100%;
+   mask-image: linear-gradient(to right, transparent, black 75%);
+-webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.hero_cap{
+    position: absolute;
+    padding-left: 6%;
+    bottom: 0;
+    width: 100%;
+}
+.cap_text{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 20px;
+}
