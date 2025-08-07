@@ -11,7 +11,7 @@
 }
 .hero_cap{
     position: absolute;
-    padding-left: 6%;
+    padding-left: 2%;
     bottom: 0;
     width: 100%;
 }
@@ -19,4 +19,41 @@
     width: 90%;
     max-width: 420px;
     margin-bottom: 20px;
+}
+.hero_cap p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+         
+.hero_buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+.hero_buttons button img{
+    width:25px;
+
+}
+.hero_buttons button{
+border: none;
+outline: none;
+display: inline-flex;
+padding: 8px 15px;
+align-items: center;
+font-size: 15px;
+font-weight: 600;
+background:white;
+border-radius: 10px;
+cursor: pointer;
+}
+.hero_buttons .btn.dark_btn{
+    color: white;
+    background: gray;
+}
+.hero_buttons .btn:hover{
+    background: #f83232;
+}
+.more_cards{
+    padding-left:3%;
 }
