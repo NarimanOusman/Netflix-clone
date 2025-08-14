@@ -18,7 +18,7 @@ const Navbar = () => {
     });
   }, []);
   return (
-    <div ref={nav} className="navbar">
+    <div ef={nav} className="navbar">
       <div className="navbar_left">
         <img src={logo} alt="" />
         <ul>
